@@ -100,7 +100,7 @@ const Home = () => {
                 Discover amazing stories, insights, and ideas from our community of <br />
                 writers. <span className="text-blue-700">Sign in</span> to create your own posts and save your favorites.
             </p>
-            <div className=" px-5 py-6 flex gap-10 flex-wrap p">
+            <div className=" w-full flex justify-center items-center gap-10 flex-wrap p">
                 {
                     posts.map((blog) => {
                         return (

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { MailPlus } from 'lucide-react';
 import { Eye } from 'lucide-react';
 import { UserLock } from 'lucide-react';
+
 const SignIn = () => {
     return (
         <div className="flex items-center  flex-col justify-center mt-10 gap-5  rounded-e-xs">
@@ -21,7 +22,7 @@ const SignIn = () => {
                         <p className="text-md text-black font-semibold">Password</p>
                         <div className="relative">
                             <input type="text" placeholder="Enter your Password" className="border-1 border-gray-600 py-4 px-3 w-[100%]  pl-12 rounded-2xl focus:outline-none focus:border-blue-500">
-                            </input> <UserLock className="absolute top-4 ml-3" /> <Eye className="absolute top-5 ml-3 right-4" />
+                            </input> <UserLock className="absolute top-4 ml-3" /> <Eye className="absolute top-5 ml-2 right-5" />
                         </div>
                     </div>
                     <div className="flex gap-2 w-[90%] py-5 px-4 rounded-xl justify-between">

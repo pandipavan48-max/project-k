@@ -161,7 +161,7 @@ const SignUp = () => {
                     <button type="submit" className="w-[90%] bg-purple-500 py-3 text-white font-semibold rounded-xl cursor-pointer flex justify-center items-center gap-2"> <CircleUser className="" /> <p>Create Account</p></button>
                     <div className="border-[0.5px] border-gray-400 w-[90%] mt-4"></div>
                     <p className="text-gray-700 font-semibold">Aldready have an Account?<Link to="/signin" className="text-purple-500 font-semibold">Sign In Here</Link></p>
-                    <Link to="/home" className="text-gray-700 font-semibold py-3 w-[90%] rounded-xl cursor-pointer text-center hover:bg-gray-200">Back to Home</Link>
+                    <Link to="/" className="text-gray-700 font-semibold py-3 w-[90%] rounded-xl cursor-pointer text-center hover:bg-gray-200">Back to Home</Link>
                 </form>
             </div>
         </>
